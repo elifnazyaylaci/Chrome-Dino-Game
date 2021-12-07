@@ -36,7 +36,7 @@ background-position: top;
     left: 560px;
     background-image: url(images/rocket.png);
     background-size: 40px 40px;
-    animation: rocket 1s infinite linear;
+    animation: rocket 2s infinite linear;
 }
 @keyframes rocket{
     0%{left: 560px}

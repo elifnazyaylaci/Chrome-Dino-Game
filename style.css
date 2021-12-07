@@ -1,0 +1,47 @@
+
+.game{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(images/moon.png);
+    background-size: 900px;
+background-position: top;
+
+}
+#dino{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/dino.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+.jump{
+    animation: jump 0.3s linear;
+}
+@keyframes jump {
+    0%{top: 150px;}
+    30%{top: 130px;}
+    50%{top: 80px;}
+    80%{top: 130px;}
+    100%{top: 150px;}
+}
+
+#rocket {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:110px;
+    left: 560px;
+    background-image: url(images/rocket.png);
+    background-size: 40px 40px;
+    animation: rocket 1s infinite linear;
+}
+@keyframes rocket{
+    0%{left: 560px}
+    100%{left: -40px}
+}
+p {
+    text-align: center;
+}
